@@ -1,0 +1,75 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to right, rgb(252, 191, 79), white);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Send+Flowers&display=swap');
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(168, 105, 33);
+    margin-bottom: 4px;
+    
+  font-family: "Send Flowers", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.body{
+    margin-top: 150px;
+    margin-bottom: 4px;
+}
+.splash{
+    margin-top: 4px;
+}
+
+.baunilha{
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 50px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    
+}
+
+.doce{
+    color: rgb(168, 105, 33);
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.ines{
+    color: rgb(168, 105, 33);
+    margin-top: 4px;
+}
+
+h2{
+    text-align: center;
+    
+  font-family: "Send Flowers", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{
+    text-align: center;
+    color: rgb(168, 105, 33);
+     font-family: "Send Flowers", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

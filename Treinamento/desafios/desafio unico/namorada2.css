@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(165, 196, 253);
+}
+
+h3{
+    text-align: center;
+    background-color: rgb(209, 224, 253);
+}
+
+.cuidado{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin-bottom: 4px;
+    color: rgb(43, 43, 139);
+}
+
+.vela{
+    text-align: center;
+    margin-top: 4px;
+     color: rgb(43, 43, 139);
+}
+
+p{
+    text-align: center;
+}

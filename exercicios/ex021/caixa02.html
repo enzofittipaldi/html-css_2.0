@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+
+        header{background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+
+        nav{
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+            
+        }
+
+        nav > a{
+            color: white;
+            margin-right: 50px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 2px 2px 4px 1px black;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 10px;
+            border-radius: 20px;
+            
+        }
+
+        article > aside{
+            background-color: rgb(54, 52, 52);
+            margin: 0px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            text-align: center;
+
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+<section id="assunto">
+<p> esporte politica e tecnologia</p>
+</section>
+<section id="noticia">
+<article>
+    <h2>Noticia sobre o brasil</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates necessitatibus vel laborum nulla eum? Quis nostrum repellendus possimus aspernatur autem dignissimos, quibusdam debitis ut, eaque mollitia perferendis obcaecati assumenda dicta!</p>
+    <aside>artigo por jose </aside>
+</article>
+</section>
+    </main>
+    <footer>
+        <p>desenvolvido pelo curso em video</p>
+    </footer>
+
+
+</body>
+</html>
