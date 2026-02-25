@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinamento aula 09/02</title>
+    <link rel="stylesheet" href="estilo/print.css" media="print">
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Treinamento - revisao formulario e media query</h1>
+    
+    <form action="" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Informações pessoais</legend>
+            <p>
+                <label for="inome">Nome: </label>
+                <input type="text" name="nome" id="inome" required minlength="5" placeholder="Coloque seu Nome" >
+            </p>
+            <p>
+                <label for="isobrenome">Sobrenome: </label>
+                <input type="text" name="sobrenome" id="isobrenome" required minlength="5" placeholder="Coloque seu Sobrenome">
+            </p>
+            <p>
+                <label for="iemail">E-mail: </label>
+                <input type="email" name="email" id="iemail" required placeholder="Coloque seu E=mail">
+            </p>
+            <p>
+                <label for="iconfemail">Confirmar E-mail: </label>
+                <input type="email" name="confemail" id="iconfemail" required placeholder="Confirme seu Email">
+            </p>
+            <p>
+                <label for="isenha">Senha: </label>
+                <input type="password" name="senha" id="isenha" required placeholder="Coloque seu Senha">
+            </p>
+            <p>
+                <label for="iconfsenha">Confirmar Senha: </label>
+                <input type="password" name="confsenha" id="iconfsenha" required placeholder="Confirme sua senha">
+            </p>
+            <p>
+                <label for="itel">Telefone: </label>
+                <input type="tel" name="tel" id="itel" required>
+            </p>
+            <p>
+                <label for="idate">Data de nascimento: </label>
+                <input type="date" name="date" id="idate" required placeholder="Coloque seu Telefone">
+            </p>
+
+            <p>
+                <label for="iestado">Estado: </label>
+                <select name="estado" id="iestado">
+                    <option value="">--Escolha seu Estado--</option>
+                    <optgroup label="Regiao suldeste">
+                        <option value="SP">Sao Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                    </optgroup>
+                    <optgroup label="Regiao Sul">
+                        <option value="SC">Santa catarina</option>
+                        <option value="RS">Rio grande do sul</option>
+                    </optgroup>
+                </select>
+            </p>
+
+            <p>
+                Selecione seu Sexo <br>
+                <input type="radio" name="radio" id="isexm" checked> <label for="isexm">Masculino</label>
+                <input type="radio" name="radio" id="isexf"> <label for="isexf">Feminino</label>
+
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Curriculo</legend>
+            <p>
+                <label for="icor">Cor favorita: </label>
+                <input type="color" name="cor" id="icor">
+            </p>
+            <p>
+                <label for="ifile">Curriculo: </label>
+                <input type="file" name="file" id="ifile">
+            </p>
+            <p>
+                <label for="isat">Nível de satisfação:</label>
+                <input type="range" name="sat" id="isat" min="1" max="5">
+            </p>
+
+            <p>selecione suas qualidades <br>
+                <input type="checkbox" name="proativo" id="iproativo"> <label for="iproativo">proativo</label><br>
+                <input type="checkbox" name="resiliente" id="iresiliente"> <label for="iresiliente">Resiliente</label><br>
+                <input type="checkbox" name="comunicativo" id="icomunicativo"> <label for="icomunicativo">Comunicativo</label>
+            </p>
+        </fieldset>
+
+        <p>
+            <label for="itext">Menssagem</label> <br>
+            <textarea name="text" id="itext" cols="30" rows="10" placeholder="Escreva sua menssagem aqui..."></textarea>
+
+        </p>
+
+    
+
+
+            <p>
+                <input type="submit" value="Enviar" class="botao">
+                <input type="reset" value="Limpar" class="limpar">
+            </p>
+
+
+    </form>
+</body>
+</html>

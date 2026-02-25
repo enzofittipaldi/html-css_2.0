@@ -1,0 +1,16 @@
+@charset "UTF-8";
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.botao{
+    display: none;
+}
+
+.limpar{
+    display: none;
+}
+
+textarea::after{
+    content: "Artigo feito por zoka";
+}
