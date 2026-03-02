@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pratica flex004</title>
+    <style>
+        main.container{
+            background-color: blueviolet;
+            height: 300px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        section.item{
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+
+            padding: 10px;
+            height: 100px;
+            width: 100px;
+            
+        }
+    </style>
 </head>
 <body>
-    
+    <main class="container">
+        <section class="item">Item A</section>
+        <!-- <section class="item">Item B</section>
+        <section class="item">Item C</section>
+        <section class="item">Item D</section>
+        <section class="item">Item F</section>
+        <section class="item">Item G</section>
+        <section class="item">Item H</section>
+        <section class="item">Item I</section> -->
+    </main>
 </body>
 </html>
