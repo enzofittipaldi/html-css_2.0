@@ -9,6 +9,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+    background-color: rgb(255, 255, 255);
 }
 
 h1, h2{
@@ -18,27 +19,25 @@ h1, h2{
 }
 
 p{
-    margin-bottom: 10px;
     text-align: justify;
 }
 
-header, section.normal{
-    padding: 20px;
+header{
+    background-color: white;
+    padding: 10px;
+}
+
+main{
+    background-color: darkgrey;
 }
 
 section{
-    border: 2px dashed green;
-}
-
-section.flex-content{
-    background-color: rgb(167, 167, 167);
-    padding: 20px;
-
+    padding: 10px;
     display: flex;
     flex-flow: column nowrap;
 }
 
-article.text-media{
+article.text-media {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -50,23 +49,19 @@ article.media-text{
     justify-content: space-between;
 }
 
-article > div.text {
+article > div.text{
     flex: 1 1 500px;
-
-     border: 2px dashed blue; 
+    
 }
 
 article > div.media{
     flex: 1 0 400px;
-
-    border: 2px dashed red; 
+    padding: 10px;
 }
 
 div.media > img{
     display: block;
     margin: auto;
-    width: 300px;
-    padding: 10px;
 }
 
 div.media > iframe{
